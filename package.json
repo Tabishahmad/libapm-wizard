@@ -1,5 +1,5 @@
 {
-  "name": "@sentry/wizard",
+  "name": "@libapm/wizard",
   "version": "3.16.5",
   "homepage": "https://github.com/getsentry/sentry-wizard",
   "repository": "https://github.com/getsentry/sentry-wizard",
