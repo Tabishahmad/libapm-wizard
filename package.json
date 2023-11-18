@@ -1,8 +1,11 @@
 {
   "name": "@libapm/wizard",
   "version": "3.16.5",
-  "homepage": "https://github.com/getsentry/sentry-wizard",
-  "repository": "https://github.com/getsentry/sentry-wizard",
+  "homepage": "https://github.com/Tabishahmad/libapm-react-native",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tabishahmad/libapm-react-native"
+  },
   "description": "Sentry wizard helping you to configure your project",
   "keywords": [
     "sentry",
@@ -119,5 +122,12 @@
   "volta": {
     "node": "14.18.3",
     "yarn": "1.22.19"
+  },
+  "bugs": {
+    "url": "https://github.com/Tabishahmad/libapm-wizard/issues"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
