@@ -1,0 +1,20 @@
+{
+  "extends": "./tsconfig.build.json",
+
+  "compilerOptions": {
+    "moduleResolution": "node16",
+    "module": "node16",
+    "types": ["node"],
+    "declaration": true,
+    "outDir": "dist"
+  },
+  "include": [
+    "__tests__",
+    "index.ts",
+    "bin.ts",
+    "lib/**/*",
+    "spec/**/*",
+    "src/**/*",
+    "test/**/*"
+  ]
+}
