@@ -20,7 +20,7 @@ try {
 
 try {
   sentryCliPackage = require(path.join(
-    path.dirname(require.resolve('@sentry/cli')),
+    path.dirname(require.resolve('@libapm1/cli')),
     '..',
     'package.json',
   ));
@@ -31,7 +31,7 @@ try {
 export class Initial extends BaseStep {
   // eslint-disable-next-line @typescript-eslint/require-await
   public async emit(_answers: Answers): Promise<Answers> {
-    dim('Running Sentry Wizard...');
+    dim('Running Libapm Wizard...');
     dim(
       `version: ${_.get(
         wizardPackage,

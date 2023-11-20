@@ -2,10 +2,7 @@
   "name": "@libapm1/wizard",
   "version": "3.16.14",
   "homepage": "https://github.com/Tabishahmad/libapm-wizard",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Tabishahmad/libapm-wizard.git"
-  },
+  "repository": "https://github.com/Tabishahmad/libapm-wizard.git".
   "description": "Libapm wizard helping you to configure your project",
   "keywords": [
     "sentry",
@@ -18,7 +15,7 @@
     "configure"
   ],
   "bin": {
-    "libapm1-wizard": "dist/bin.js"
+    "sentry-wizard": "dist/bin.js"
   },
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
