@@ -10,7 +10,7 @@ let sentryCliPackage: any = {};
 
 try {
   wizardPackage = require(path.join(
-    path.dirname(require.resolve('@sentry/wizard')),
+    path.dirname(require.resolve('@libapm1/wizard')),
     '..',
     'package.json',
   ));
