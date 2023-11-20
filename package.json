@@ -1,6 +1,6 @@
 {
   "name": "@libapm1/wizard",
-  "version": "3.16.9",
+  "version": "3.16.10",
   "homepage": "https://github.com/Tabishahmad/libapm-wizard",
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
     "configure"
   ],
   "bin": {
-    "libapm1-wizard": "dist/bin.js"
+    "sentry-wizard": "dist/bin.js"
   },
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

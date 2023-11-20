@@ -11,9 +11,9 @@
 <h1>Sentry Wizard</h1>
 <h4>The Sentry Wizard helps you set up your React Native, Cordova, Electron or Next.js projects with Sentry.</h4>
 
-[![npm version](https://img.shields.io/npm/v/@sentry/wizard.svg)](https://www.npmjs.com/package/@sentry/wizard)
-[![npm dm](https://img.shields.io/npm/dm/@sentry/wizard.svg)](https://www.npmjs.com/package/@sentry/wizard)
-[![npm dt](https://img.shields.io/npm/dt/@sentry/wizard.svg)](https://www.npmjs.com/package/@sentry/wizard)
+[![npm version](https://img.shields.io/npm/v/@sentry/wizard.svg)](https://www.npmjs.com/package/@libapm1/wizard)
+[![npm dm](https://img.shields.io/npm/dm/@sentry/wizard.svg)](https://www.npmjs.com/package/@libapm1/wizard)
+[![npm dt](https://img.shields.io/npm/dt/@sentry/wizard.svg)](https://www.npmjs.com/package/@libapm1/wizard)
 [![Discord Chat](https://img.shields.io/discord/621778831602221064.svg)](https://discord.gg/Ww9hbqr)
 
 [![deps](https://david-dm.org/getsentry/sentry-wizard/status.svg)](https://david-dm.org/getsentry/sentry-wizard?view=list)
