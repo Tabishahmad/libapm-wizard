@@ -12,7 +12,7 @@ targets:
         desc "The Libapm Wizard helps you set up your projects with Sentry"
         homepage "https://github.com/Tabishahmad/libapm-wizard"
         url "https://registry.npmjs.org/@libapm1/wizard/-/wizard-{{version}}.tgz"
-        sha256 "{{checksums.sentry-wizard-v__VERSION____tgz}}"
+        sha256 "{{checksums.ibapm1-wizard-v__VERSION____tgz}}"
         version "{{version}}"
         license "MIT"
 
@@ -29,6 +29,6 @@ targets:
   - name: registry
     apps:
       app:sentry-wizard:
-        urlTemplate: https://github.com/getsentry/sentry-wizard/releases/tag/v{{version}}
+        urlTemplate: https://github.com/Tabishahmad/libapm-wizard/releases/tag/V{{version}}
   - name: github
     tagPrefix: v
