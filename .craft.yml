@@ -4,7 +4,7 @@ preReleaseCommand: bash scripts/craft-pre-release.sh
 targets:
   - name: npm
   - name: brew
-    tap: getsentry/tools
+    tap: Tabishahmad/tools
     template: >
       require 'language/node'
 
