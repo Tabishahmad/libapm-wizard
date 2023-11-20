@@ -1,10 +1,10 @@
 {
   "name": "@libapm1/wizard",
-  "version": "3.16.5",
-  "homepage": "https://github.com/Tabishahmad/libapm-react-native",
+  "version": "3.16.8",
+  "homepage": "https://github.com/Tabishahmad/libapm-wizard",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tabishahmad/libapm-react-native"
+    "url": "git+https://github.com/Tabishahmad/libapm-wizard.git"
   },
   "description": "Sentry wizard helping you to configure your project",
   "keywords": [
@@ -18,7 +18,7 @@
     "configure"
   ],
   "bin": {
-    "libapm1-wizard": "dist/bin.js"
+    "Sentry-wizard": "dist/bin.js"
   },
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

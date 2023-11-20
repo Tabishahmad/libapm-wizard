@@ -54,7 +54,7 @@ import { getIssueStreamUrl } from '../utils/url';
 // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 const xcode = require('xcode');
 
-export const RN_SDK_PACKAGE = '@sentry/react-native';
+export const RN_SDK_PACKAGE = '@libapm1/react-native';
 
 export const RN_PACKAGE = 'react-native';
 export const RN_HUMAN_NAME = 'React Native';
@@ -91,7 +91,7 @@ export async function runReactNativeWizardWithTelemetry(
   }
 
   printWelcome({
-    wizardName: 'Sentry React Native Wizard',
+    wizardName: 'Lipapm React Native Wizard',
     promoCode: options.promoCode,
     telemetryEnabled: options.telemetryEnabled,
   });
@@ -244,12 +244,12 @@ ${chalk.cyan(issuesStreamUrl)}`);
   // eslint-disable-next-line no-console
   console.log(
     chalk.greenBright(`
-<Button title='Try!' onPress={ () => { Sentry.captureException(new Error('First error')) }}/>
+<Button title='Try!' onPress={ () => { Sentry.captureException(new Error('First error Libapm')) }}/>
 `),
   );
 
   const firstErrorConfirmed = clack.confirm({
-    message: `Have you successfully sent a test event?`,
+    message: `Have you successfully sent a test event on Libapm1?`,
   });
 
   return firstErrorConfirmed;
@@ -389,7 +389,7 @@ async function patchAndroidFiles(config: RNCliSetupConfigContent) {
   if (includesSentry) {
     Sentry.setTag('app-build-gradle-status', 'already-includes-sentry');
     clack.log.warn(
-      `Android ${chalk.cyan('app/build.gradle')} file already includes Sentry.`,
+      `Android ${chalk.cyan('app/build.gradle')} file already includes Libapm Sentry.`,
     );
     return;
   }
