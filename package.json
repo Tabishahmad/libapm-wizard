@@ -6,7 +6,7 @@
     "type": "git",
     "url": "git+https://github.com/Tabishahmad/libapm-wizard.git"
   },
-  "description": "Sentry wizard helping you to configure your project",
+  "description": "Libapm wizard helping you to configure your project",
   "keywords": [
     "sentry",
     "wizard",

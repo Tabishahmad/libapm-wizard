@@ -9,9 +9,9 @@ export class Result extends BaseStep {
     this.debug(answers);
     nl();
     if (this._argv.uninstall) {
-      green('😢  Successfully removed Sentry from your project 😢');
+      green('😢  Successfully removed Libapm from your project 😢');
     } else {
-      green('🎉  Successfully set up Sentry for your project 🎉');
+      green('🎉  Successfully set up Libapm for your project 🎉');
     }
     // We need to exit here to stop everything
     setTimeout(() => {
