@@ -4,15 +4,15 @@ preReleaseCommand: bash scripts/craft-pre-release.sh
 targets:
   - name: npm
   - name: brew
-    tap: Tabishahmad/tools
+    tap: getsentry/tools
     template: >
       require 'language/node'
 
       class SentryWizard < Formula
         desc "The Libapm Wizard helps you set up your projects with Sentry"
-        homepage "https://github.com/Tabishahmad/libapm-wizard"
-        url "https://registry.npmjs.org/@libapm1/wizard/-/wizard-{{version}}.tgz"
-        sha256 "{{checksums.ibapm1-wizard-v__VERSION____tgz}}"
+        homepage "https://github.com/getsentry/sentry-wizard"
+        url "https://registry.npmjs.org/@sentry/wizard/-/wizard-{{version}}.tgz"
+        sha256 "{{checksums.sentry-wizard-v__VERSION____tgz}}"
         version "{{version}}"
         license "MIT"
 
@@ -29,6 +29,6 @@ targets:
   - name: registry
     apps:
       app:sentry-wizard:
-        urlTemplate: https://github.com/Tabishahmad/libapm-wizard/releases/tag/V{{version}}
+        urlTemplate: https://github.com/getsentry/sentry-wizard/releases/tag/V{{version}}
   - name: github
     tagPrefix: v
