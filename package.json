@@ -1,8 +1,8 @@
 {
   "name": "@libapm1/wizard",
-  "version": "3.16.21",
-  "homepage": "https://github.com/Tabishahmad/libapm-wizard",
-  "repository": "https://github.com/Tabishahmad/libapm-wizard",
+  "version": "3.16.22",
+  "homepage": "https://github.com/getsentry/sentry-wizard",
+  "repository": "https://github.com/getsentry/sentry-wizard",
   "description": "Libapm wizard helping you to configure your project",
   "keywords": [
     "sentry",
@@ -118,12 +118,5 @@
   "volta": {
     "node": "14.18.3",
     "yarn": "1.22.19"
-  },
-  "bugs": {
-    "url": "https://github.com/Tabishahmad/libapm-wizard/issues"
-  },
-  "directories": {
-    "lib": "lib",
-    "test": "test"
   }
 }
