@@ -10,9 +10,9 @@ targets:
 
       class SentryWizard < Formula
         desc "The Libapm Wizard helps you set up your projects with Sentry"
-        homepage "https://github.com/getsentry/sentry-wizard"
-        url "https://registry.npmjs.org/@sentry/wizard/-/wizard-{{version}}.tgz"
-        sha256 "{{checksums.sentry-wizard-v__VERSION____tgz}}"
+        homepage "https://github.com/Tabishahmad/libapm-wizard"
+        url "https://github.com/Tabishahmad/libapm-wizard/-/wizard-{{version}}.tgz"
+        sha256 "{{checksums.libapm-wizard-v__VERSION____tgz}}"
         version "{{version}}"
         license "MIT"
 
