@@ -54,7 +54,7 @@ import { getIssueStreamUrl } from '../utils/url';
 // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 const xcode = require('xcode');
 
-export const RN_SDK_PACKAGE = '@sentry/react-native';
+export const RN_SDK_PACKAGE = '@libapm1/react-native';
 
 export const RN_PACKAGE = 'react-native';
 export const RN_HUMAN_NAME = 'React Native';
