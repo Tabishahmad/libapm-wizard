@@ -1,10 +1,10 @@
 {
   "name": "@libapm1/wizard",
-  "version": "3.16.23",
-  "homepage": "https://github.com/getsentry/sentry-wizard",
+  "version": "3.16.24",
+  "homepage": "https://github.com/Tabishahmad/libapm-wizard",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/getsentry/sentry-wizard.git"
+    "url": "git+https://github.com/Tabishahmad/libapm-wizard"
   },
   "description": "Libapm wizard helping you to configure your project",
   "keywords": [
@@ -123,7 +123,7 @@
     "yarn": "1.22.19"
   },
   "bugs": {
-    "url": "https://github.com/getsentry/sentry-wizard/issues"
+    "url": "https://github.com/Tabishahmad/libapm-wizard/issues"
   },
   "directories": {
     "lib": "lib",
